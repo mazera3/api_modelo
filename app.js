@@ -8,7 +8,7 @@ const app = express();
 
 app.use(express.json());
 
-mongoose.connect('mongodb://localhost/celke', {
+mongoose.connect('mongodb://localhost/node_js', {
   useNewUrlParser: true,
   useUnifiedTopology: true
 }).then(() => {
