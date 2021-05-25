@@ -8,7 +8,7 @@ const app = express();
 
 app.use(express.json());
 
-mongoose.connect('mongodb://node_js:node_js@ mongo_node_js:27017/node_js', {
+mongoose.connect('mongodb://node_js:qwe123456@ mongo_node_js:27017/node_js', {
   useNewUrlParser: true,
   useUnifiedTopology: true
 }).then(() => {
