@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
-
-const Artigo = new mongoose.Schema({
+const Schema = mongoose.Schema;
+const Artigo = new Schema({
     titulo: {
         type: String,
         required: true
