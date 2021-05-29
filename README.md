@@ -30,3 +30,8 @@ COMO RODAR O PROJETO BAIXADO
 
 //Rodar o projeto usando o nodemon 
 ### nodemon app.js
+
+// Git
+### git config --get remote.origin.url
+### git remote add umbler https://kamino.deploy.umbler.com/jny7wg3e/celke-wiki-br.git
+### git push umbler master

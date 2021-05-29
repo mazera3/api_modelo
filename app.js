@@ -16,8 +16,12 @@ app.use((req, res, next) => {
     app.use(cors());
 });
 
+// no linux:
+// Veirificar estado:  sudo systemctl status mongod
+// Iniciar o mongodb: sudo systemctl start mongod.service
+// Parar o mongodb: sudo systemctl stop mongod.service
 
-mongoose.connect('mongodb://localhost/celke', { // node_js:qwe123456@mongo_node_js:27017/node_js
+mongoose.connect('mongodb://localhost/celke', { // nodejs:qwe123456@mongo_celke:27017/celke
     useNewUrlParser: true,
     useUnifiedTopology: true
 }).then(() => {
